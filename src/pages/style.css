@@ -1,0 +1,80 @@
+@import '~antd/dist/antd.css';
+
+#title{
+    color: white;
+    font-size: 30px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#medium_box{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#left_card{
+    width: 500px;
+    height:500px;
+    margin:20px 50px 20px 75px;
+    float: left;
+    /*overflow:auto;*/
+}
+
+#left_card .ant-card-body{
+    padding: 0;
+}
+
+#left_card #brace-editor{
+    height: 436px !important;
+}
+
+#left_card button{
+    margin-right: 10px;
+}
+
+#input_code_area{
+    white-space: pre-wrap;
+}
+
+#right_card{
+    width: 500px;
+    height: 500px;
+    margin: 20px 75px 20px 0;
+    float: left;
+    white-space: pre-wrap;
+    overflow:auto;
+}
+
+#right_card button{
+    margin-left: 10px;
+}
+
+#right_card .ant-card-body{
+    overflow:auto;
+}
+
+#right_card .ant-card-head-wrapper{
+    width: 450px;
+}
+
+.replace_btn{
+    height: 18px;
+    /*margin-right: 5px !important;*/
+    float: right;
+    font-size: 12px;
+}
+
+#message_card{
+    width: 1050px;
+    margin: 0 auto;
+}
+
+.clear{
+    clear: both;
+}
+
+#footer{
+    text-align: center;
+}
+
+

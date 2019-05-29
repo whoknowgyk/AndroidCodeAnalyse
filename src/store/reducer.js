@@ -1,2 +1,6 @@
 import { reducer as homeReducer } from '../pages/store';
-export default homeReducer;
+import {combineReducers} from 'redux';
+
+export default combineReducers({
+    homeReducer,
+});
