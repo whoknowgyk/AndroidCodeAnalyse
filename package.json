@@ -5,7 +5,7 @@
   "dependencies": {
     "ace-builds": "^1.4.4",
     "antd": "^3.19.1",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "react": "^16.8.6",
     "react-ace": "^7.0.0",
     "react-dom": "^16.8.6",
